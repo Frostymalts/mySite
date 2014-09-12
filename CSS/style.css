@@ -1,0 +1,88 @@
+#about {
+	background-color: #f2f2f2;
+	color: gray;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 150px;
+}
+
+#about img {
+	display: block;
+	width: 360px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about #work {
+	font-family: 'Myriad Set Pro', sans-serif;
+}
+
+.block {
+	height: 700px;
+}
+
+#link {
+	margin-left: 400px;
+}
+
+#mail {
+	margin-left: 100px;
+}
+
+#me {
+	background: url(../images/seattle.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 175px;
+}
+
+#me img {
+	display: block;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#meWords {
+	font-weight: 900;
+	background-color: rgba(0, 0, 0, .15);
+	width: 60%;
+}
+
+#meWords, #quote {
+	color: #f2f2f2;
+	display: block;
+	font-family: 'Coming Soon', cursive;
+}
+
+#work {
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+#work > h1, > h3, > p{
+	color: black;
+	padding: 5px;
+}
+
+#work img {
+	display: block;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quote {
+	background: url(../images/montana.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 175px;
+}
+
+#quote > p {
+	display: block;
+	font-size: 26px;
+	color: black;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
