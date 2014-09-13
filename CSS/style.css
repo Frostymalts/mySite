@@ -32,9 +32,22 @@
 	margin-left: 50px;
 }
 
-#contact img {
+#contact h3 {
 	margin-top: 50px;
 }
+
+#contact img {
+	margin-top: 50px;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+ }
+
+ #contact img:hover {
+ 	-webkit-transform: scale(1.5);
+ 	transform: scale(1.5);
+ }
 
 #link {
 	margin-left: 400px;
