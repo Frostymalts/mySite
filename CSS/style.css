@@ -6,6 +6,10 @@
 	padding-bottom: 150px;
 }
 
+#about h1 {
+	margin-top: 50px;
+}
+
 #about img {
 	display: block;
 	width: 360px;
