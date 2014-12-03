@@ -26,6 +26,11 @@
 	height: 700px;
 }
 
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
 #contact {
 	padding-top: 75px;
 	background-color: #a6e0df;
@@ -49,8 +54,8 @@
  }
 
  #contact img:hover {
- 	-webkit-transform: scale(1.5);
- 	transform: scale(1.5);
+ 	-webkit-transform: scale(1.15);
+ 	transform: scale(1.15);
  }
 
 #link {
@@ -62,12 +67,14 @@
 }
 
 #me {
-	background: url(../images/seattle.jpg) no-repeat center center;
+	background-image: url(../images/seattlePic.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	padding-top: 175px;
 }
 
 #me img {
+	background-color: rgba(0, 0, 0, .2);
 	display: block;
 	margin-top: 200px;
 	margin-left: auto;
@@ -79,7 +86,7 @@
 }
 
 #me img:hover {
-	background-color: rgba(0, 0, 0, .15);
+	background-color: rgba(0, 0, 0, .4);
 	border-radius: 50%;
 }
 
@@ -92,30 +99,20 @@
 #meWords, #quote {
 	color: #f2f2f2;
 	display: block;
-	font-family: 'Coming Soon', cursive;
 }
 
-.navbar-nav {
-	background-color: rgba(0,0,0, .5);
-	border-radius: 5px;
-}
-
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a {
+.navbar-nav>li>a {
 	color: #69dbcd;
 	font-size: 16px;
+	float: left;
 	transition-property: font-size;
   	transition-duration: 300ms;
  	transition-timing-function: ease-in-out;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-nav>li>a:hover {
 	font-size: 20px;
-	color: #50aa9e;
+	color: #50aa9e;;
 }
 
 #work {
@@ -135,10 +132,30 @@
 	margin-right: auto;
 }
 
+.workImg {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.workImg:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.05);
+}
+
 #quote {
-	background: url(../images/montana.jpg) no-repeat center center;
+	background: url(../images/montana.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	padding-top: 175px;
 	font-size: 26px;
 	color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+	#about img {
+		width: 300px;
+	}
 }
