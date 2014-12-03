@@ -4,42 +4,52 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Josh Malters, Joshua, Malters, Joshua Noah Malters, Portfolio, Seattle, Washington, Univesity of Washington, Informatics, Human Computer Interaction, HCI, Design, Developer, Front-End Developer, LinkedIn, Computer Science, UI, UX, Rapid Prototyping, Wireframe">
-	<meta name="description" content="Joshua Malters. Student. Devolper and UX Designer. Always Curious">
+	<meta name="keywords" content="Josh Malters, Joshua, Malters, Joshua Noah Malters, Portfolio, Seattle, Washington, University of Washington, Informatics, Human Computer Interaction, HCI, Design, Developer, Front-End Developer, LinkedIn, Computer Science, UI, UX, Rapid Prototyping, Wireframe">
+	<meta name="description" content="Joshua Malters. Student. Developer and UX Designer. Always Curious">
 	<meta name="author" content="Joshua Malters">
 	<meta property="og:title" content="Joshua Malters: UX/UI Design">
 	<meta property="og:url" content="http://www.joshmalters.com">
-	<meta property="og:description" content="Joshua Malters. Student. Devolper and UX Designer. Always Curious">
+	<meta property="og:description" content="Joshua Malters. Student. Developer and UX Designer. Always Curious">
 	<title>Josh Malters: Student|Design|Code</title>
-	<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link href="CSS/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  		<div class="container">
-      		<ul class="nav navbar-nav">
-				<li><a href="#aboutPage">Who?</a></li>
-				<li><a href="#workPage">Portfolio</a></li>
-				<li><a href="#contactPage">Contact</a></li>
-				<li><a href="#me">Top</a></li>
-			</ul>
-		</div>
-	</nav>
+	<header>
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#aboutPage">Who?</a></li>
+						<li><a href="#workPage">Portfolio</a></li>
+						<li><a href="#contactPage">Contact</a></li>
+						<li><a href="#me">Top</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-	<div id="me" class="block container-fluid">
+	<section id="me" class="block container-fluid">
 		<div id="meWords" class="container">
 			<h1 class="text-center">Josh Malters</h1>
 			<h3 class="text-center">Informatics student at the University of Washington<br>
 			studying Human Computer Interaction.</h3>
 		</div>
-		<a href="#about"><img src="images/down.png"></a>
-	</div>
+		<a id="downBtn" href="#about"><img src="images/down.png"></a>
+	</section>
 
-	<div id="about" class="container-fluid">
+	<section id="about" class="container-fluid">
 		<a id="aboutPage"></a>
 		<h1>So who am I?</h1><br>
 		<p class="lead">Hey! I'm Josh,<br>
@@ -49,36 +59,36 @@
 		I love to code and design, so please, check out some of my work! 
 		</p>
 		<img src="images/me.png">
-	</div>
+	</section>
 
-	<div id="quote" class="block container-fluid">
+	<section id="quote" class="block container-fluid">
 		<div class="row">
 			<div class="col-sm-6 col-md-6 col-sm-offset-3 col-md-offset-3">
 				<p>I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. I think that's the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.</p><br>
 				<p>-Elon Musk</p>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div id="work" class="container-fluid">
+	<section id="work" class="container-fluid">
 		<a id="workPage"></a>
 		<h1 class="text-center">Portfolio</h1>
 		<div class="row">
 		  <div class="col-sm-4 col-md-4 col-sm-offset-1 col-md-offset-1">
 		  	<h3 class="text-center">Big Sky Dog Training</h3>
-		  	<a href="http://frostymalts.github.io/Big-Sky-Dogs"><img src="images/bigSkyDogs.png"></a><br>
+		  	<a href="http://frostymalts.github.io/Big-Sky-Dogs"><img class="workImg" src="images/bigSkyDogs.png"></a><br>
 		  	<p class="text-center">A project I did for a good family friend and my personal dog trainer. Take aways for this site is usability and design. A minimalist approach that doesn't come off as preachy or edgy. User friendly and intuitive.</p>
 		  </div>
 
 		  <div class="col-sm-4 col-md-4 col-sm-offset-2 col-md-offset-2">
 		  	<h3 class="text-center">The Final Fratier</h3>
-		  	<a href="http://thefinalfratier.com"><img src="images/theFinal.png"></a><br>
+		  	<a href="http://thefinalfratier.com"><img class="workImg" src="images/theFinal.png"></a><br>
 		  	<p class="text-center">The website was built to cater as an informational and "hype-up" platform for a party. A parallax star background to mimic space travel and "password only" video to give an exclusionary feel, is what drives this site home.</p>
 		  </div>
 		</div>
-	</div>
+	</section>
 
-	<div id="contact" class="container-fluid">
+	<section id="contact" class="container-fluid">
 		<a id="contactPage"></a>
 		<h1>Say hey!</h1>
 		<div class="row">
@@ -91,10 +101,8 @@
 		</div>
 		<h3 class="text-center">Also check out my blog where I journal my <a href="http://joshtacklesux.blogspot.com/"><strong>design</strong></a> process!</h3>
 		<a href="https://drive.google.com/file/d/0Bz4lRd8Zwcq3TEF2bElqNnNuYXM/view?usp=sharing"><h3 class="text-center">Resume</a>
-	</div>
+	</section>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/scroll.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -104,6 +112,9 @@
         ga('create', 'UA-54749166-1', 'auto');
         ga('send', 'pageview');
     </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="js/scroll.js"></script>
 </body>
 
 </html>
