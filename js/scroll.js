@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     var navHeight = $('nav').outerHeight();
 
-    $('nav a').click(function() {
+    $('nav a, #downBtn').click(function() {
         var targetElement = $(this.hash);
         var targetTop = targetElement.offset().top;
 
