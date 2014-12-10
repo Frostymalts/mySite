@@ -33,7 +33,9 @@ body {
 
 #contact {
 	padding-top: 75px;
-	background-color: #a6e0df;
+	background-image: url(../images/watercolor15.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 	height: 500px;
 }
 
@@ -146,7 +148,7 @@ body {
 }
 
 #quote {
-	background: url(../images/montana.jpg);
+	background: url(../images/paper.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 175px;
